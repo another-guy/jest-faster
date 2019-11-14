@@ -1,0 +1,43 @@
+{
+    "name": "jest-faster",
+    "displayName": "jest-faster",
+    "icon": "images/logo.png",
+    "description": "Jest snippets done right.",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.33.0"
+    },
+    "author": {
+        "name": "Igor Soloydenko",
+        "email": "soloydenko@gmail.com",
+        "url": "https://soloydenko.com/"
+    },
+    "publisher": "igorsoloydenko",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/another-guy/jest-faster.git"
+    },
+    "keywords": [
+        "Jest",
+        "TypeScript",
+        "tsx",
+        "snippet",
+        "snippets",
+        "Jest snippets"
+    ],
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "typescript",
+                "path": "./snippets/snippets.json"
+            },
+            {
+                "language": "typescriptreact",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    }
+}
